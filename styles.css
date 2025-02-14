@@ -65,7 +65,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* 메뉴 버튼 스타일 수정 */
+/* Menu button Styles*/
 .menu-btn {
     width: 80%;
     padding: 15px 20px;
@@ -84,13 +84,13 @@ body {
     box-shadow: 0 8px 25px rgba(0,0,0,0.3);
 }
 
-/* 메뉴 컨테이너 수정 */
+/* Menu container Styles*/
 .menu {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding-top: 20px;  /* 상단 여백 추가 */
+    padding-top: 20px;  /* Top margin */
 }
 
 .stats {
@@ -181,7 +181,7 @@ body {
     color: #7f8c8d;
 }
 
-/* 기존 스타일은 유지하고 카드 스타일 추가 */
+/* Keep existing styles and add card styles */
 .game-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -232,7 +232,7 @@ body {
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
-/* 반응형 디자인 */
+/* Responsive design */
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -253,7 +253,7 @@ body {
     }
 }
 
-/* 프로그레스 바 관련 스타일 수정 */
+/* Progress bar related styles */
 .progress-container {
     margin: 15px 0;
 }
@@ -287,7 +287,7 @@ body {
     z-index: 1;
 }
 
-/* 레벨 뱃지 스타일 */
+/* Level badge Styles*/
 .level-badge {
     position: absolute;
     top: -10px;
@@ -301,7 +301,7 @@ body {
     z-index: 2;
 }
 
-/* XP 정보 스타일 */
+/* XP info Styles*/
 .xp-info {
     margin: 10px 0;
     font-size: 0.9em;
@@ -317,26 +317,26 @@ body {
     color: #95a5a6;
 }
 
-/* 카드 링크 스타일 */
+/* Card link Styles*/
 .card-link {
     text-decoration: none;
     color: inherit;
     display: block;
 }
 
-/* 클릭 효과 */
+/* Click effect Styles*/
 .card-link:active .card {
     transform: scale(0.98);
 }
 
-/* 카드에 커서 포인터 추가 */
+/* Card cursor pointer Styles*/
 .card {
     cursor: pointer;
     position: relative;
     overflow: hidden;
 }
 
-/* 호버 시 살짝 빛나는 효과 */
+/* Hover effect Styles*/
 .card::after {
     content: '';
     position: absolute;
