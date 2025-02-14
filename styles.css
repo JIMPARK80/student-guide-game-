@@ -8,6 +8,7 @@
 body {
     background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
     min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .container {
@@ -69,18 +70,13 @@ body {
     width: 80%;
     padding: 15px 20px;
     margin: 8px auto;
-    background: linear-gradient(145deg, #3498db, #2980b9);
+    background: #3498db;
     border: none;
     border-radius: 8px;
-    cursor: pointer;
     color: white;
     font-size: 1.1em;
-    text-align: center;
-    transition: all 0.3s ease;
     display: block;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-    transform-style: preserve-3d;
-    transform: perspective(1000px) translateZ(0);
+    cursor: pointer;
 }
 
 .menu-btn:hover {
