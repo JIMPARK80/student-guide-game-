@@ -111,40 +111,6 @@ body {
     background-color: #fff;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #3498db;
-    padding: 15px 25px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.search-bar input {
-    padding: 8px 15px;
-    width: 300px;
-    border: none;
-    border-radius: 20px;
-    font-size: 14px;
-    outline: none;
-}
-
-.login-btn {
-    padding: 8px 20px;
-    background: #2ecc71;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.login-btn:hover {
-    background: #27ae60;
-    transform: translateY(-2px);
-}
-
 .game-container {
     border: none;
     padding: 30px;
@@ -273,15 +239,6 @@ body {
     }
     
     .sidebar {
-        width: 100%;
-    }
-    
-    .header {
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    .search-bar input {
         width: 100%;
     }
     
