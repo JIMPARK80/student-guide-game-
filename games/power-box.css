@@ -1,0 +1,76 @@
+/* 게임 페이지 스타일 */
+.game-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.back-button {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.game-stats {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.game-content {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.question-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.question-box h2 {
+    font-size: 1.5em;
+    color: #2c3e50;
+}
+
+.game-image {
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.game-image img {
+    width: 100%;
+    height: auto;
+}
+
+.erase-btn {
+    padding: 10px 30px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.erase-btn:hover {
+    background: #2980b9;
+}
