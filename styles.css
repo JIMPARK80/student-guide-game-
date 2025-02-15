@@ -6,7 +6,6 @@
 }
 
 body {
-    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
     min-height: 100vh;
     font-family: 'Segoe UI', sans-serif;
 }
@@ -70,10 +69,10 @@ body {
     width: 80%;
     padding: 15px 20px;
     margin: 8px auto;
-    background: #3498db;
+    background: #edf2b6;
     border: none;
     border-radius: 8px;
-    color: white;
+    color: rgb(3, 3, 3);
     font-size: 1.1em;
     display: block;
     cursor: pointer;
@@ -114,12 +113,9 @@ body {
 }
 
 .game-container {
-    border: none;
-    padding: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-    background: white;
+    background: #d4f0b1; /* Light green background for the game container */
     border-radius: 15px;
+    padding: 20px; /* Add padding for better spacing */
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
@@ -190,7 +186,7 @@ body {
 }
 
 .card {
-    background: white;
+    background: #edf2b6;
     border-radius: 15px;
     padding: 20px;
     margin: 15px;
